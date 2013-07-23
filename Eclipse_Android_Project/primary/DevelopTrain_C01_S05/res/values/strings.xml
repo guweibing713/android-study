@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">DevelopTrain_C01_S05</string>
+    <string name="app_name">Save Data</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="button_save">Save</string>
+    <string name="login_static">Name</string>
+    <string name="login_example">username@126.com</string>
+	<string name="preference_file_key">marSave</string>
+	<string name="saveName">saveName</string>
+	<string name="getrecord">GetRecord</string>
 </resources>
