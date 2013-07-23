@@ -3,6 +3,7 @@
 
     <string name="app_name">DevelopTrain_C01_S06</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="edittext">88888888</string>
+	<string name="phone">phnoe:</string>
+	<string name="button">Dail</string>
 </resources>
