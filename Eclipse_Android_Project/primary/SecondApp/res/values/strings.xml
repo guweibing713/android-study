@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SecondApp</string>
+    <string name="linear">線性佈局</string>
+    <string name="relative">相對佈局</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string name="rightImage">右圖片</string>
+    <string name="leftImage">左圖片</string>
+    
+	<string name="shitou">石頭</string>
+	<string name="jiandao">剪刀</string>
+	<string name="bu">布</string>
+	
+	<string name="button">確定</string>
+	<string name="result">結果</string>
+	<string name="testresult">測試結果</string>
+	
+	<string name="turn">轉到相對佈局</string>
+	
+	<string name="title">登陸界面</string>
+	<string name="login">登陸</string>
+	<string name="cancel">取消</string>
+	
+	<string name="user">username</string>
+	<string name="passwd">password</string>
+</resources>

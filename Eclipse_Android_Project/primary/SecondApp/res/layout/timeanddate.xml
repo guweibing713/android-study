@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <TimePicker 
+        android:id="@+id/timepId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        />
+    <Button
+        android:id="@+id/timeBtnId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timepId"
+        android:layout_alignLeft="@id/timepId"
+        android:layout_marginTop="50dp"
+        android:text="confirm"
+        android:onClick="confirmTime"
+        />
+    
+    <TextView 
+        android:id="@+id/timeId"
+    	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/timeBtnId"
+        android:layout_alignBaseline="@id/timeBtnId"
+        android:textSize="25sp"
+        android:text="current is:"
+        />
+    
+    <ProgressBar 
+        android:id="@+id/progressbar1Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeBtnId"
+        android:layout_alignLeft="@id/timeBtnId"
+        android:layout_marginTop="20dp"
+        />
+    
+    <ProgressBar 
+        android:id="@+id/progressbar2Id"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progressbar1Id"
+        android:layout_alignLeft="@id/timeBtnId"
+        android:layout_marginTop="20dp"
+        />
+
+    <ProgressBar 
+        android:id="@+id/progressbar3Id"
+        style="?android:attr/progressBarStyleLargeInverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeBtnId"
+        android:layout_toRightOf="@id/progressbar1Id"
+        android:layout_marginTop="20dp"
+        />
+    
+    <ProgressBar 
+        android:id="@+id/progressbar4Id"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timeBtnId"
+        android:layout_toRightOf="@id/progressbar3Id"
+        android:layout_marginTop="20dp"
+        />
+    
+</RelativeLayout>
