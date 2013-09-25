@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp" 
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:text="@string/title" />
+    
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:text="@string/sex"
+        />
+    
+    <RadioGroup 
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        
+        <RadioButton 
+            android:id="@+id/maleRadioId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="@string/male"
+            />
+        
+        <RadioButton 
+            android:id="@+id/femaleRadioId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:text="@string/female"
+            />
+        
+    </RadioGroup>
+    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"   
+        android:layout_marginBottom="10dp"   
+        android:layout_marginLeft="5dp"
+        android:text="@string/question" />
+
+    
+    <CheckBox 
+        android:id="@+id/eatId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/eat"
+        />
+    
+    <CheckBox 
+        android:id="@+id/sleepId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/sleep"
+        />
+    
+    <CheckBox 
+        android:id="@+id/dotaId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:text="@string/dota"
+        />
+    
+    <TextView
+        android:id="@+id/result"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        />
+    
+    <ImageView 
+        android:id="@+id/headImageId"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/boy"
+        android:scaleType="fitCenter"
+        />
+    
+</LinearLayout>
